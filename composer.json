@@ -1,0 +1,49 @@
+{
+    "name": "codeat3/blade-codicons",
+    "description": "A package to easily make use of Codicons in your Laravel Blade views.",
+    "keywords": ["Blade", "codicons", "Laravel"],
+    "homepage": "https://github.com/codeat3/blade-codicons",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Swapnil Sarwe",
+            "homepage": "https://swapnilsarwe.com"
+        },
+        {
+            "name": "Dries Vints",
+            "homepage": "https://driesvints.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "blade-ui-kit/blade-icons": "^1.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0",
+        "symfony/finder": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeat3\\BladeCodicons\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "Codeat3\\BladeCodicons\\BladeCodiconsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
