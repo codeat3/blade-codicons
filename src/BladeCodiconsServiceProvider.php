@@ -12,7 +12,7 @@ final class BladeCodiconsServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->callAfterResolving(Factory::class, function (Factory $factory) {
-            $factory->add('file-icons', [
+            $factory->add('vscode-codicons', [
                 'path' => __DIR__.'/../resources/svg',
                 'prefix' => 'codicon',
             ]);

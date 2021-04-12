@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://banners.beyondco.de/Blade%20File%20Icons.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-codicons&pattern=architect&style=style_1&description=A+package+to+use+File+Icons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade Codicons">
+    <img src="https://banners.beyondco.de/Blade%20VSCode%20Codicons.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-codicons&pattern=architect&style=style_1&description=A+package+to+use+VSCode+Codicons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade Codicons">
 </p>
 
 # Blade Codicons
