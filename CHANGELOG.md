@@ -2,6 +2,9 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 1.2.0 (2021-05-11)
+Added support for config file
+
 ## 1.1.0 (2021-04-26)
 * Updated with new set of added icons
 
