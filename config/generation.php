@@ -10,7 +10,7 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet) {
     $svgElement = $doc->getElementsByTagName('svg')[0];
 
     // Get initial viewBox value, when empty add safe default.
-    $vBoxValue = $svgElement->getAttribute('viewBox') ?: '0 0 24 24';
+    $vBoxValue = $svgElement->getAttribute('viewBox') ?: '0 0 16 16';
 
     // Remove all the attributes to control order of them on output
     $svgElement->removeAttribute('width');
