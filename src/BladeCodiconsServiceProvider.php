@@ -19,7 +19,6 @@ final class BladeCodiconsServiceProvider extends ServiceProvider
 
             $factory->add('vscode-codicons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
         });
-
     }
 
     private function registerConfig(): void
