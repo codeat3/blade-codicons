@@ -2,28 +2,17 @@
 
 use Codeat3\BladeIconGeneration\IconProcessor;
 
-class BladeCodicons extends IconProcessor
-{
-    public function postOptimization()
-    {
-        $svgElement = $this->svgDoc->getElementsByTagName('svg')[0];
-        $vBox = $svgElement->getAttribute('viewBox') ?: '0 0 16 16';
-        $svgElement->setAttribute('viewBox', $vBox);
-
-        $this->svgLine = $this->getSvgAsString();
-
-        $this->svgLine = preg_replace('/\<\?xml.*\?\>/', '', $this->svgLine);
-        return $this;
-    }
-}
-
 $svgNormalization = static function (string $tempFilepath, array $iconSet) {
 
     // perform generic optimizations
-    $iconProcessor = new BladeCodicons($tempFilepath, $iconSet);
+    $iconProcessor = new IconProcessor($tempFilepath, $iconSet);
     $iconProcessor
-        ->optimize()
-        ->postOptimization()
+        ->optimize(function ($svgEL) {
+
+            $vBox = $svgEL->getAttribute('viewBox') ?: '0 0 16 16';
+            $svgEL->setAttribute('viewBox', $vBox);
+
+        })
         ->save();
 };
 
