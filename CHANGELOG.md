@@ -2,6 +2,10 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 1.4.2 (2021-07-19)
+- added icon generation & auto update action
+- icon updates due to generic icon generation scripts
+
 ## 1.3.2 (2021-05-14)
 * synced with the latest release [VS Code Codicons 0.0.17](https://github.com/microsoft/vscode-codicons/releases/tag/0.0.17)
 
