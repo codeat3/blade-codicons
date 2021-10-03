@@ -2,8 +2,13 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+
+## 1.6.2 (2021-10-03)
+- icons synced with the latest commit [e91b8e1b8c29c21b06e5cc78757766915ff4f2d4](https://github.com/microsoft/vscode-codicons/commit/e91b8e1b8c29c21b06e5cc78757766915ff4f2d4)
+
 ## 1.5.2 (2021-08-20)
 - icons synced with the latest commit [54359169075f29bbbbe11963b6744730436a45aa](https://github.com/microsoft/vscode-codicons/commit/54359169075f29bbbbe11963b6744730436a45aa)
+
 ## 1.4.2 (2021-07-19)
 - added icon generation & auto update action
 - icon updates due to generic icon generation scripts
