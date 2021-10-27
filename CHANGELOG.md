@@ -2,7 +2,10 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-codicons/compare/1.7.2...main)
+## [Unreleased](https://github.com/codeat3/blade-codicons/compare/1.8.2...main)
+
+## 1.8.2 (2021-10-27)
+- icons synced with the latest commit [56d6bb32d87aa027576760a0337633c9bc8c4bd4](https://github.com/microsoft/vscode-codicons/commit/56d6bb32d87aa027576760a0337633c9bc8c4bd4)
 
 ## 1.7.2 (2021-10-14)
 - icons synced with the latest commit [1a9d49e68dedc934f40cc127357ce92d977bc7ae](https://github.com/microsoft/vscode-codicons/commit/1a9d49e68dedc934f40cc127357ce92d977bc7ae)
