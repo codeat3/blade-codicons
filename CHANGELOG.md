@@ -2,7 +2,13 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-codicons/compare/1.10.2...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-codicons/compare/1.11.2...HEAD)
+
+## [1.11.2](https://github.com/codeat3/blade-codicons/compare/1.10.2...1.11.2) - 2022-01-17
+
+## Updates
+
+- icons synced with the latest commit [31c5a78462ca559f3d6eb6ac88e71f8e1fc73152](https://github.com/microsoft/vscode-codicons/commit/31c5a78462ca559f3d6eb6ac88e71f8e1fc73152)
 
 ## [1.10.2](https://github.com/codeat3/blade-codicons/compare/1.8.2...1.10.2) - 2022-01-03
 
