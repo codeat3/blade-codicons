@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-codicons/compare/1.14.2...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-codicons/compare/1.15.2...HEAD)
+
+## [1.15.2](https://github.com/codeat3/blade-codicons/compare/1.14.2...1.15.2) - 2022-03-02
+
+## Updates
+
+- chore: update icons with the latest commit [5467ce9](https://github.com/microsoft/vscode-codicons/commit/5467ce91da1e7ec1f84cc0ccc73000ef530ebe1f) by @github-actions in https://github.com/codeat3/blade-codicons/pull/25
+
+**Full Changelog**: https://github.com/codeat3/blade-codicons/compare/1.14.2...1.15.2
 
 ## [1.14.2](https://github.com/codeat3/blade-codicons/compare/1.13.2...1.14.2) - 2022-02-22
 
