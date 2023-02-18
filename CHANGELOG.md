@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-codicons/compare/1.29.2...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-codicons/compare/1.30.2...HEAD)
+
+## [1.30.2](https://github.com/codeat3/blade-codicons/compare/1.29.2...1.30.2) - 2023-02-18
+
+### What's Changed
+
+- laravel 10 support by @swapnilsarwe in https://github.com/codeat3/blade-codicons/pull/44
+
+**Full Changelog**: https://github.com/codeat3/blade-codicons/compare/1.29.2...1.30.2
 
 ## [1.29.2](https://github.com/codeat3/blade-codicons/compare/1.28.2...1.29.2) - 2022-12-26
 
